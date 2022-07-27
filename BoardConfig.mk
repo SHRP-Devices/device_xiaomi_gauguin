@@ -146,6 +146,21 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 
+SHRP_PATH := device/xiaomi/gauguin
+SHRP_MAINTAINER := Droneship
+SHRP_DEVICE_CODE := gauguin
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A/B
+SHRP_NOTCH := true
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+
+
 # haptics
 TW_SUPPORT_INPUT_1_2_HAPTICS := true
 #
